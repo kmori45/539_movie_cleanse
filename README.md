@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Math 539 Movie Selection Data Cleansing Scripts
 
-You can use the [editor on GitHub](https://github.com/kmori45/539_movie_cleanse/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Use these scripts to turn raw data into usable tables for analysis.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Instructions
 
-### Markdown
+The following files need to be in the "data" folders (all files are available in the team google drive):
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### media_load folder
 
-```markdown
-Syntax highlighted code block
+- SIA_media_content_entire_yr.csv (from Panasonic)
+- SIA_media_data_entire_yr.csv (from Panasonic)
 
-# Header 1
-## Header 2
-### Header 3
+### media_usage folder
 
-- Bulleted
-- List
+- sia_media_usage_master.csv (from Panasonic)
 
-1. Numbered
-2. List
+### other folder
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kmori45/539_movie_cleanse/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- top_actors.csv (this file contains the list of top grossing actors scraped from box office mojo)
+- airport-codes.csv (this file is a cached copy of all airports and their ICAO codes)
